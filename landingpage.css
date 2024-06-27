@@ -1,0 +1,440 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+.header {
+    background-color: hsl(0, 0%, 1%); 
+    padding: 15px 135px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 37px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.search-box {
+    background-color: white; 
+    margin-top: 3px; 
+    padding: 9px;
+    border: none;
+    border-radius: 18px;
+    font-size: 12.5px;
+    transition: all 0.4s ease;
+    margin-right: -122px;
+    width:200px;
+}
+
+.search-box:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-box::placeholder {
+    color: hsl(0, 4%, 5%); 
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-links li {
+    float: left;
+    margin-right:65px; 
+}
+
+.nav-links li:last-child {
+    margin-right: 0; 
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 22px;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+}
+
+.nav-links li a:hover {
+    color: red; 
+    font-size: 22px; 
+    transform: scale(1.2); 
+}
+
+.container {
+    min-height: 120vh;
+    background-color: #f0f0f0; 
+    
+}
+.hello{
+ position:fixed;
+ height:auto;
+ left:0px;
+ width:90px;
+overflow: hidden;
+margin-top: 5px;
+left: 13px;
+border-radius: 4px 24px;
+color:#fff;
+
+}
+
+.content{
+width:100%;
+min-height:100vh;
+position:absolute;
+top: 0;
+left: 0;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+.content h1{
+    font-size:28px;
+    color:#fff;
+    font-weight:400;
+}
+
+.content p{
+    font-size:16px;
+    color:#fff;
+    margin-top: 10px;
+}
+.content a{
+text-decoration:none;
+margin-top:20px;
+font-size:19px;
+display:inline-block;
+letter-spacing:2px;
+padding:12px 20px;
+background-color:#5d88d5;
+border-radius:5px;
+color:#fff;
+}
+.content a:hover{
+background-color:#2d88d5;    
+}
+
+.container{
+    background-image:url("https://c1.wallpaperflare.com/preview/402/309/305/mountain-person-camp-guidebook.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+
+
+
+.blank-page {
+    height:220vh; 
+    background-color: white; 
+}
+
+.blank-page {
+    height: 150vh; 
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; 
+    text-align: right; 
+    
+}
+
+.blank-page h2 {
+    font-size: 37px;
+    color: #333;
+    align-items: centre;
+    margin-top:-620px;
+    margin-bottom:40px;
+    text-align:center;
+    width:100%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-box {
+    margin-right: 850px; 
+    position: absolute;
+    top:850px;
+}
+
+.image-box img {
+    width: 450px; 
+    height: -50px; 
+    border-radius: 15%; 
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.blank-page p {
+    font-size: 18px;
+    color: #666;
+    max-width: 800px;
+    text-align: right; 
+    margin-bottom: 20px; 
+    margin-left:420px;
+    line-height: 1.6; 
+    font-weight: 300; 
+    letter-spacing: 0.5px;
+
+}
+
+
+
+
+
+.benefits-heading {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px; 
+    margin-top:-500px;
+    font-size:35px;
+}
+
+.benefit-boxes {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+}
+.benefit-box:first-child img {
+    width: 261px; 
+    height: 249px; 
+    border-radius: 30%; 
+    object-fit: cover; 
+    margin-left:30px;
+}
+
+
+.benefit-box:first-child p {
+    font-weight: bold; 
+    margin-top: 38px; 
+    margin-left:30px;
+    font-size:17px;
+}
+
+
+.benefit-box:nth-child(2) img {
+    width: 261px; 
+    height: 249px; 
+    border-radius: 30%; 
+    object-fit: cover; 
+    margin-left:-33px;
+    margin-top:4px;
+}
+
+
+.benefit-box:nth-child(2) p {
+    font-weight: bold; 
+    margin-top: 38px; 
+    margin-left:22px;
+    font-size:17px;
+}
+
+
+.benefit-box:nth-child(3) img {
+    width: 261px; 
+    height: 249px; 
+    border-radius: 30%; 
+    object-fit: cover; 
+    margin-left:-33px;
+    margin-top:4px;
+}
+
+.benefit-box:nth-child(3) p {
+    font-weight: bold;
+    margin-top: 38px;
+    margin-left: -15px; 
+    font-size: 17px;
+}
+
+
+
+.story-page{
+height:150vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+.story-page h2{
+text-align: center;
+font-size:40px;
+margin-top:70px;
+margin-bottom:765px;
+position: absolute;
+margin-left:213px;
+}
+
+
+.story-page p {
+    font-weight: bold; 
+    margin-top: -548px; 
+    margin-left: 446px;
+    font-size: 20px;
+    width: -5px;
+    color: #666;
+    font-weight:300;
+    height: 10px;
+     font-family: Arial", "Helvetica", sans-serif;"; 
+    line-height: 2;
+}
+.gallery-box{
+ margin-left:-999px;
+ position:absolute;   
+ margin-bottom:60px;
+}
+    
+
+.gallery-box img{
+    width: 407px; 
+    height: 742px; 
+    border-radius: 4%; 
+    object-fit:cover; 
+    margin-left:72px;
+    margin-top:240px;    
+}
+
+
+
+.footer{
+margin-top:150px;
+width:100%;
+padding:100px 15%;
+background:#333;
+color:#efefef;
+ display:flex;
+ 
+   
+}
+
+.footer div{
+ text-align:center;   
+}
+.col2{
+ flex-grow: 2;   
+}
+.footer div h3{
+ font-weight:300;
+ margin-bottom:30px;
+ letter-spacing:1px;   
+}
+
+
+
+.footer img{
+    
+    margin-left:-206px;
+    position:absolute;
+    border-radius:15%;
+    margin-bottom:-30px;
+    top:2745px;
+    background-image:cover;
+}
+.col3 h3{
+    margin-left:666px;
+}
+.col3 p{
+    margin-left:666px;
+}
+.col2 h3{
+    margin-left:300px;
+    position:absolute;
+
+}
+.col2 form{
+    
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 66px;
+    
+}
+.col1 h3{
+    margin-left:260px;
+}
+.col1 a{
+    margin-left:260px ;
+    display:block;
+    text-decoration:none ;
+    color:whitesmoke;
+    margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
